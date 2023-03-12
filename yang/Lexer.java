@@ -21,7 +21,7 @@ public class Lexer {
   public int yylineno = 0; // 算数表达式在第几行
 
   private String input_buffer = "";
-  private String current = "";  // 当前正在处理的字符串 "2*3+4;"
+  private String current = ""; // 当前正在处理的字符串 "2*3+4;"
 
   // 判断 lookAhead 是否到达了 结尾 EOI
   // 首次执行 lex函数，返回lex函数的结果赋值给 lookAhead
@@ -95,7 +95,7 @@ public class Lexer {
             current = current.substring(1);
             return SEMI;
           case '+':
-            current = current.substring(1);  // 每次都会截取 current
+            current = current.substring(1); // 每次都会截取 current
             return PLUS;
           case '*':
             current = current.substring(1);

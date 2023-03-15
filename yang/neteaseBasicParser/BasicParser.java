@@ -1,3 +1,4 @@
+package neteaseBasicParser;
 
 public class BasicParser {
   private Lexer lexer;

@@ -3,7 +3,12 @@
 ## 学习资料
 
 1. 网易云课堂，`coding迪士尼` 老师的免费课程 [自己动手用 java 写编译器 ](https://study.163.com/course/courseMain.htm?courseId=1002830012)
-2. 上述课程的源码 [地址](https://github.com/Neumann789/c-compiler)
+
+- 上述课程的源码 [地址](https://github.com/Neumann789/c-compiler)
+
+2. 极客时间 [编译原理之美](https://time.geekbang.org/column/article/118016)
+
+- 上述课程的源码 [地址](https://github.com/RichardGong/PlayWithCompiler)
 
 ## 学习目标
 

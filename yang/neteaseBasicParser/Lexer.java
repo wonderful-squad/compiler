@@ -1,3 +1,4 @@
+package neteaseBasicParser;
 import java.util.Scanner;
 
 /**
